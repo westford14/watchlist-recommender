@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+numpy = "<=2.2"
+faiss-cpu = "*"
+uvicorn = "*"
+ratelimit = "*"
+pydantic-settings = "*"
+sentence-transformers = "*"
+
+[dev-packages]
+black = "*"
+tox = "*"
+flake8 = "*"
+pylint = "*"
+pytest = "*"
+mypy = "*"
+types-requests = "*"
+
+[requires]
+python_version = "3.13"

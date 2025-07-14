@@ -1,0 +1,10 @@
+.mypy_cache/
+.tox/
+.venv/
+build/
+.coverage
+__pycache__/
+data/
+.git/
+.github/
+notebooks/
