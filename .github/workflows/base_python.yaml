@@ -79,5 +79,5 @@ jobs:
         if: steps.pipenv-cache.outputs.cache-hit != 'true'
         run: pipenv install --dev
 
-      - name: Run unit tests + get coverage
-        run: pipenv run tox -e coverage
+      - name: Run unit tests
+        run: pipenv run tox -e unit
