@@ -153,3 +153,4 @@ data/
 lightning_logs/
 checkpoints/
 model/
+notebooks/
